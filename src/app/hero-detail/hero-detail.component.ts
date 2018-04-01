@@ -12,7 +12,6 @@ import { HeroService } from '../hero.service';
 })
 export class HeroDetailComponent implements OnInit {
 
-
   @Input() hero: Hero;
 
   constructor(
