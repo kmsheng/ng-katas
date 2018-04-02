@@ -11,7 +11,7 @@ const HEROES = [];
 @Injectable()
 export class HeroService {
 
-  private herosUrl = 'api/heroes';    // URL to web api
+  private heroesUrl = 'api/heroes';    // URL to web api
 
   constructor(
     private http: HttpClient,
