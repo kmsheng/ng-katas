@@ -3,8 +3,9 @@ import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
 
 import { Hero } from './hero';
-import { HEROES } from './mock-heroes';
 import { MessageService } from './message.service';
+
+const HEROES = [];
 
 @Injectable()
 export class HeroService {
